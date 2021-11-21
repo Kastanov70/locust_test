@@ -1,0 +1,2 @@
+master: locust -f mongo_test.py --master --expect-workers=2
+worker: locust -f mongo_test.py --worker
